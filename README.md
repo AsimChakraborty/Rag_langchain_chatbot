@@ -19,8 +19,7 @@ A PDF document processing and question-answering system built with Flask, LangCh
 6. Access the UI at http://localhost:8501
 
 ## Configuration
-
-- Document chunking:  using the **RecursiveCharacterTextSplitter** with a default chunk size of 1000 characters and an overlap of 200 characters
+- Document chunking:  using the <span style="color: #1F2937;">**RecursiveCharacterTextSplitter**</span> with a default chunk size of 1000 characters and an overlap of 200 characters
 - To modify chunk size, edit parameters in `rag_system.py`
 
 ## Architecture
